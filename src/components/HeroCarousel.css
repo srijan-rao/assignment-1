@@ -1,0 +1,30 @@
+/* src/components/HeroCarousel.css */
+.hero-carousel-container {
+    padding: 2rem 0;
+    background: #f8f9fa;
+    margin-bottom: 2rem;
+  }
+  
+  .carousel-title {
+    color: #f84464;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .custom-carousel .carousel-control-prev,
+  .custom-carousel .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-item-container {
+    padding: 0 5%;
+  }
+  
+  .carousel-card-wrapper {
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-card-wrapper:hover {
+    transform: translateY(-5px);
+  }
